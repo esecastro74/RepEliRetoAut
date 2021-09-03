@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RetoAutApplicationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-09-02T14:18:51" hostname="PB0B0893339" time="112.341">
+<testsuite name="RetoAutApplicationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-09-03T13:48:50" hostname="50HW017005" time="91.025">
   <properties/>
-  <testcase name="Iniciar" classname="RetoAutApplicationTest" time="30.616"/>
-  <testcase name="primerformulario" classname="RetoAutApplicationTest" time="6.67"/>
-  <testcase name="segundoformulario" classname="RetoAutApplicationTest" time="6.69"/>
-  <testcase name="tercerformulario" classname="RetoAutApplicationTest" time="1.262"/>
-  <testcase name="cuartoformulario" classname="RetoAutApplicationTest" time="66.045"/>
-  <testcase name="validarregistro" classname="RetoAutApplicationTest" time="1.041"/>
+  <testcase name="Iniciar" classname="RetoAutApplicationTest" time="17.951"/>
+  <testcase name="primerformulario" classname="RetoAutApplicationTest" time="3.6"/>
+  <testcase name="segundoformulario" classname="RetoAutApplicationTest" time="4.229"/>
+  <testcase name="tercerformulario" classname="RetoAutApplicationTest" time="0.839"/>
+  <testcase name="cuartoformulario" classname="RetoAutApplicationTest" time="62.319"/>
+  <testcase name="validarregistro" classname="RetoAutApplicationTest" time="2.066"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 23366
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 2819
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sept. 02, 2021 9:19:04 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1630676932.265][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 03, 2021 8:48:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

@@ -17,7 +17,7 @@ public class RetoAutApplicationTest {
 
     @Test
     public  void Iniciar() throws  InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "D:\\Desarrollo\\test\\src\\test\\resources\\chromedriver\\chromedriver2.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/chromedriver/chromedriver2.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.utest.com/");
@@ -33,7 +33,7 @@ public class RetoAutApplicationTest {
 
             driver.findElement(By.id("firstName")).sendKeys("Ana");
             driver.findElement(By.id("lastName")).sendKeys("Guzman");
-            driver.findElement(By.id("email")).sendKeys("anaguzman11");
+            driver.findElement(By.id("email")).sendKeys("anaguzman15");
             Thread.sleep(1000);
             driver.findElement(By.id("email")).sendKeys("@guzman.com");
             Thread.sleep(500);
@@ -111,7 +111,10 @@ public class RetoAutApplicationTest {
         String texto = driver.findElement(By.xpath("//*[@id=\"mainContent\"]/div/div/div[1]/div/h1")).getText();
         Thread.sleep(1000);
         Assert.assertEquals(texto, "Welcome to the world's largest community of freelance software testers!");
+        driver.quit();
     }
+
+
 
 
 
